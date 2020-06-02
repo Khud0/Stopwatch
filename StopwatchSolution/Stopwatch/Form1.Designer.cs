@@ -29,26 +29,26 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.lbStopwatch = new System.Windows.Forms.Label();
+            this.lbWorkTime = new System.Windows.Forms.Label();
             this.btnStart = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
-            this.lbStopwatchRest = new System.Windows.Forms.Label();
+            this.lbRestTime = new System.Windows.Forms.Label();
             this.btnResetRest = new System.Windows.Forms.Button();
             this.btnGitHub = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbStopwatch
             // 
-            this.lbStopwatch.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.lbStopwatch.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbStopwatch.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbStopwatch.Location = new System.Drawing.Point(22, 19);
-            this.lbStopwatch.Name = "lbStopwatch";
-            this.lbStopwatch.Size = new System.Drawing.Size(216, 57);
-            this.lbStopwatch.TabIndex = 0;
-            this.lbStopwatch.Text = "00:00:00";
-            this.lbStopwatch.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbWorkTime.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.lbWorkTime.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbWorkTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbWorkTime.Location = new System.Drawing.Point(22, 19);
+            this.lbWorkTime.Name = "lbStopwatch";
+            this.lbWorkTime.Size = new System.Drawing.Size(216, 57);
+            this.lbWorkTime.TabIndex = 0;
+            this.lbWorkTime.Text = "00:00:00";
+            this.lbWorkTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnStart
             // 
@@ -88,15 +88,15 @@
             // 
             // lbStopwatchRest
             // 
-            this.lbStopwatchRest.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.lbStopwatchRest.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbStopwatchRest.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbStopwatchRest.Location = new System.Drawing.Point(101, 97);
-            this.lbStopwatchRest.Name = "lbStopwatchRest";
-            this.lbStopwatchRest.Size = new System.Drawing.Size(178, 36);
-            this.lbStopwatchRest.TabIndex = 4;
-            this.lbStopwatchRest.Text = "00:00:00";
-            this.lbStopwatchRest.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbRestTime.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.lbRestTime.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbRestTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbRestTime.Location = new System.Drawing.Point(101, 97);
+            this.lbRestTime.Name = "lbStopwatchRest";
+            this.lbRestTime.Size = new System.Drawing.Size(178, 36);
+            this.lbRestTime.TabIndex = 4;
+            this.lbRestTime.Text = "00:00:00";
+            this.lbRestTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnResetRest
             // 
@@ -131,11 +131,11 @@
             this.ClientSize = new System.Drawing.Size(444, 142);
             this.Controls.Add(this.btnGitHub);
             this.Controls.Add(this.btnResetRest);
-            this.Controls.Add(this.lbStopwatchRest);
+            this.Controls.Add(this.lbRestTime);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnStart);
-            this.Controls.Add(this.lbStopwatch);
+            this.Controls.Add(this.lbWorkTime);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -146,11 +146,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lbStopwatch;
+        private System.Windows.Forms.Label lbWorkTime;
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btnStop;
         private System.Windows.Forms.Button btnReset;
-        private System.Windows.Forms.Label lbStopwatchRest;
+        private System.Windows.Forms.Label lbRestTime;
         private System.Windows.Forms.Button btnResetRest;
         private System.Windows.Forms.Button btnGitHub;
     }
